@@ -1,0 +1,567 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moondawg Media</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./moondawg.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/166eceac17.js" crossorigin="anonymous"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/zTveiw1ZKXGpUsFy/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+</head>
+<body>
+    
+    <!--
+        rose
+        i am going to add all pages so that a person will just remove the bgcolor on a page he/she
+         will be working you can change the background and remember we are using green and gold you can check my css i just selected the color code
+    -->
+
+    <div class="home-page" id="home-page">
+
+        <!--
+            creating our nav bar
+        -->       
+        <nav>
+        <a href="#" class="moondawg"><img src="./moondawg.jpg" alt=""></a> 
+            <label for="toggler">
+                <i class="fa fa-bars"></i>
+            </label>
+        <input type="checkbox" id="toggler" name="">
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="#Live-stream">Live Stream</a></li>
+                    <li><a href="#Hire">Hire</a></li>
+                    <li><a href="#Events">Events</a></li>
+                    <li><a href="#Production">Production</a></li>
+                    <li><a href="#Installation">Installation</a></li>
+                    <li><a href="#Hist">About us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="Live-stream" id="Live-stream">
+
+        <h1>Live Streaming</h1>
+
+        <div class="main-container">
+
+            <div class="buttons">
+
+                <button id="btn_diva">Live Streaming</button>
+                 <button id="btn_divb">Video Conference Products</button>
+
+            </div>
+
+            </div>
+
+            <div class="blocks">
+
+                <div class="diva" id="diva">
+                    
+                    <div class="flexx">
+                        <div>
+                            <h3>Live Streaming</h3>
+                            <img src="./7.jpg" alt="">
+                            <p>Moondawg has a long history of providing streaming services having provided videography and streaming since the advent of cameras and television in South Africa. Our experienced camera operators capture your event in the best detail possible using the latest video technology, lighting and digital microphones to help you share the moment.</p>
+                        </div>
+                        <div>
+                            <h3>Hybrid Conferencing</h3>
+                            <img src="./10.jpg" alt="">
+                            <p>Hybrid conferencing lets you involve anyone in your event expanding your event engagement while reducing your carbon footprint. Online viewers can comment, respond to polls, ask questions, and we enable communication from those in the room with those online, whether they are a subject expert presenting, or the audience viewing.</p>
+                        </div>
+                        <div>
+                            <h3>Content Production</h3>
+                            <img src="./3.jpg" alt="">
+                            <p>Do you need a short promotional video made to showcase to your clients what you do best? What about help with content to post on social media? Our production team can help capture and create content that best represents your brand. We help you share fresh content with your audience and convey your message in a way that is meaningful and attractive.</p>
+                        </div>
+                        <div>
+                            <h3>Virtual Events</h3>
+                            <img src="./8.jpg" alt="">
+                            <p>Let us help you host an event remotely. Your presenters can deliver their message from anywhere in the world and your viewers can participate in meaningful ways. Our virtual event services are built utilising a number of pieces of software and powerful hardware to facilitate collaboration and learning on a platform that is user friendly and reliable</p>
+                        </div>
+                    </div>
+                
+                </div>
+    
+                <div class="divb" id="divb">
+                    
+                    <div class="flex">
+                        <div class="padding">
+                            <img src="./Teleconference Solutions.jpg" alt="">
+                            <h3>Teleconference Solutions</h3>
+                            <p>Connect to a laptop, smartphone or tablet to experience an omni-directional microphone and HD Voice for the best collaboration making sure that everyone is heard with crystal clear clarity.</p>
+                        </div>
+                        <div>
+                            <img src="./conferencecam-group.png" alt="">
+                            <h3>Professional VC Solutions</h3>
+                            <p>Our video conferencing solutions for rooms that seat 14–20 people, deliver high quality HD video and crystal clear audio, allowing any meeting place to be a video conferencing space.</p>
+                        </div>
+                        <div>
+                            <img src="./conferencecam-connect.png" alt="">
+                            <h3>Small Meeting VC Solutions</h3>
+                            <p>With no special software or training, launching an enterprise-quality video conference has never been easier. Connect via USB to Windows and Mac® computers and Chromebooks</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>     
+        </div>
+
+    </div>
+    <!--- addd the autocue, HIFI, GEEP LIGHTING, studio hire-->
+    <!---Remove the following audio video hire:, battery speaker hire, 
+    60" touchboard hire, load hailer hire powered speaker hire,-->
+
+           
+    <div class="Hire" id="Hire">
+
+        <h1>Audiovisual Hire Equipment</h1>
+
+        <div class="hire-flex">
+            <div>
+                <h4>Camera Hire</h4>
+                <img src="./Camera.jpg" alt="">
+            </div>
+            <div>
+                <h4>Video Conference Hire</h4>
+                <img src="./video conference hire.png" alt="">
+            </div>
+            <div>
+                <h4>Powered Speaker Hire</h4>
+                <img src="./powered speaker.jpg" alt="">
+            </div>
+            <div>
+                <h4>Battery Lighting Hire </h4>
+                <img src="./battrey lighting hire.jpg" alt="">
+            </div>
+            <div>
+                <h4>Laptop Hire</h4>
+                <img src="./laptop hire.jpg" alt="">
+            </div>
+             <div>
+                <h4>Battery Speaker Hire</h4>
+                <img src="./battrey speaker hire.jpg" alt="">
+            </div>
+            <div>
+                <h4>Projector Hire</h4>
+                <img src="./Projectorhire.jpg" alt="">
+            </div>
+            <div>
+                              
+                <h4>Screen Hire</h4>
+                <img src="./screen hire.jpg" class="small" alt="">
+             
+            </div>
+            <!-- div >
+                <h4>60” Touchboard Hire</h4>
+                <img src="./Touchboardhire.jpg" alt="">
+                I commented this as some of the things we are removing
+            </!-->
+            <div>
+                <h4>23” Monitor Hire</h4>
+                <img src="./monitor screen.jpg" alt="">
+            </div>
+            <div>
+                <h4>Loudhailer Hire</h4>
+                <img src="./Loudhailer.jpg" alt="">
+            </div>
+            <div>
+                <h4>Mirrorless Camera Hire</h4>
+                <img src="./mirrorless camera.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Events" id="Events">
+
+        <h1 class="h">Event Technology Services</h1>
+
+
+            <div class="flexxx">
+
+            <div id="semi"></div>
+            <div>
+                <h1>Seminars</h1>
+                <p>Provide a seamless experience on stage and ensure your message is delivered in the most impactful way, while also creating a space for positive audience engagement.</p>
+            </div>
+
+            </div>
+
+            
+            <div class="flexxx">
+
+                <div>
+                    <h1>Conferences</h1>
+                    <p>We bring ideas that are out of the box and leverage the latest technology to create an engaging and memorable experience for your conference attendees.</p>
+                </div>
+                <div id="conf"></div>
+    
+            </div>
+            <div class="button">
+            <button onclick="myFun()">Read More</button>
+            </div>
+            <div class="flexxx" id="nonne">
+
+                <div id="product"></div>
+
+                    <div class="centeer">
+                        <h1>Product Launches</h1>
+                        <p>From Apple or Samsung to Emirates and Mercedes the largest brands rely on Shipleys to represent their brand when bringing new products to market. Let us help you put your product under the spotlight.</p>
+                    </div>
+
+
+            </div>
+
+
+    </div>
+
+    <div class="Production" id="Production">
+
+        <h1 class="h">Production & Videography </h1>
+
+        <div class="flexxx">
+
+            <div id="live">
+
+            </div>
+            <div>
+                <h1>Live Streaming</h1>
+                <p>Today your audience has no limits thanks to live streaming technology. From complex surgeries to graduation ceremonies and sporting events, your event can be beamed in real-time to anywhere in the world. </p>
+            </div>
+
+           
+            <div class="overflow-div">
+                <h1>Event Videography</h1>
+                <p>Working in collaboration with our lighting, visual and sound operators, our expert videography team are always in the right place, at the right time. Whether it’s a conference, product launch, gala dinner or sporting event
+                    <!--, our professional team have the experience to capture all the highlights of your event in the most compelling way.--></p>
+            </div>
+            <div id="semiii">
+                
+            </div>
+
+            </div>
+        
+
+
+
+    </div>
+
+    <div class="Installation" id="Installation">
+
+        <h1 class="install-h" id="h">System Installation & Integration</h1>
+        <div class="flex-one">
+    
+        <div class="container">
+            <img src="./corporatee.jpeg" alt="corporate" class="image">
+            <div class="overlay">
+            <div class="text">
+                <h1>Corporate</h1>
+            </div>
+            <p>Our state-of-the-art integrated hardware makes conducting business easier and more personal. From design consultancy to installation and maintenance, our AV solutions are tailored to your business’s operational requirements, no matter the size.</p>
+             </div>
+        </div>
+    
+            
+        <div class="container">
+            <img src="./hotels.jpg" alt="corporate" class="image">
+            <div class="overlay">
+            <div class="text">
+                <h1>Hotels and Hospitality</h1>
+            </div>
+            <p>For over three decades, Shipleys has been heavily involved in audiovisual system integration in the education sector. We are principal suppliers for Lincoln University and ARA Polytechnic and service a large number of secondary and primary schools throughout the South Island.</p>
+             </div>
+        </div>
+    
+        
+        <div class="container">
+            <img src="./automation.jpeg" alt="corporate" class="image">
+            <div class="overlay">
+            <div class="text">
+                <h1>Automation</h1>
+            </div>
+            <p>Efficient workplaces rely on clever automation to offer the best experience to both employees and clients. Create a connected environment with the help of our experienced automation engineers. </p>
+             </div>
+        </div>
+    
+        
+        <div class="container">
+            <img src="./theatre.jpg" alt="corporate" class="image">
+            <div class="overlay">
+            <div class="text">
+                <h1>Theatre</h1>
+            </div>
+            <p>A theatre is a distinct space requiring very specific audio specification and calibration to ensure optimal sound pressure, intensity and acoustic impedance. We work closely with the most reputable audio suppliers to ensure the latest audio technology is utilsed to balance all factors important to the space.</p>
+             </div>
+        </div>
+    
+        
+        <div class="container">
+            <img src="./worship.jpeg" alt="corporate" class="image">
+            <div class="overlay">
+            <div class="text">
+                <h1>Places of Worship</h1>
+            </div>
+            <p>Good quality sound reproduction is important to ensure that words can be clearly conveyed in your place of worship. Images displayed on screens or projected onto a backdrop can also be used to reinforce those messages. 
+            </p>
+             </div>
+        </div>
+    
+        
+        <div class="container">
+            <img src="./2.jpg" alt="corporate" class="image">
+            <div class="overlay">
+            <div class="text">
+                <h1>Theatre</h1>
+            </div>
+            <p>A theatre is a distinct space requiring very specific audio specification and calibration to ensure optimal sound pressure, intensity and acoustic impedance. We work closely with the most reputable audio suppliers to ensure the latest audio technology is utilsed to balance all factors important to the space.</p>
+             </div>
+        </div>
+    
+        </div>
+
+        <!--
+        <section class="Installation" id="Installation">
+            <div class="Installation-content">
+                <h1>
+                    INSTALLATION
+                </h1>
+                <h2 class="subtitle">
+                    GET IN TOUCH FOR HIGH QUALITY Service</h2>
+                </h2>
+                <div class="image-container">
+                    <div class="image">
+                        <img src="./2.jpg" alt="" width="300px" height="300px">
+                <p class="text">
+                    We are ready to help you with your installation needs.
+                    We can provide you with a wide range of installation services.
+                    Today’s businesses are digital businesses. 
+                    Our technology helps you create modern environments where your business can thrive, connecting you with both colleagues and customers, anywhere on the globe.
+                </p>
+            </div>
+            <div class="READ MORE">
+                <a href="installation.html" class="clickableblue">Read More</a>
+            </div>
+
+        </section>
+        -->
+
+    </div>
+
+    <div class="Hist" id="Hist">
+        
+        <h1 class="hh">Hey! Here's you, Looking at us, Looking at you!</h1>
+        <div class="hist-abs">
+
+            <div class="main">
+                <div class="main-flex">
+                    <div></div>
+                    <div>
+                        <h1>About Us</h1>
+                        <p>At Moondawg Media, we are more than just a broadcasting company; we are storytellers, visionaries, and innovators. Founded on the belief that every story deserves to be told, we embark on a journey to connect, engage, and inspire audiences worldwide through our diverse range of media offerings..</p>
+                        <br>
+                        <a href="./about.html" target="_self">Read More<span>&#8594;</span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contact-us" id="contact-us">
+
+        <div class="cenn">
+            <h1 class="title">CONTACT US </h1>
+            <p class="subtitle">Ready to take your media needs to the next level?</p>
+            <p class="text">Get in touch with us today and let's discuss how we can help you achieve your goals.</p>
+        </div>
+        <br>
+            <div id="flex">
+
+                <div class="contact-form">          
+                   
+                    <div class="cnn">
+                        <h4 style="color: green;">Get In Touch</h4>
+
+                        <form id="myForm">
+                            <!--<h4 style="color: green;">Get In Touch</h4>-->
+                                <label>First Name</label>
+                                <input type="text" id="name" name="name" placeholder="Firstname" required>
+                                
+                                <label>Last Name</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+
+                                <label>Email</label>
+                                <input type="email" name="email" id="email" placeholder="Email" required>
+
+                                <label>Services</label>
+                                <select name="service" id="service">
+                                    <option value="live streaming">Live Streaming</option>
+                                    <option value="conferencing">Conferencing</option>
+                                    <option value="Content Production">Content Production</option>
+                                    <option value="Virtual Events">Virtual Events</option>
+                                </select>
+                                <br>
+                            
+                                <textarea name="comment" id="comment" cols="40" rows="10" placeholder="Your Message..." required></textarea>
+                                
+                                <button type="button" onclick='SubForm()'>Submit</button>
+                        </form>
+                </div>
+                </div>
+
+                <div class="google-maps">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.1556809994036!2d28.112915974395918!3d-25.99571715551359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e1c4c47a185%3A0x9472b4e9a7361ab2!2s153%20Smuts%20Dr%2C%20Halfway%20Gardens%2C%20Midrand%2C%201686!5e0!3m2!1sen!2sza!4v1708630811738!5m2!1sen!2sza" 
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                          
+                </div>  
+                </div> 
+            </div>
+        </div>
+
+
+      <div class="spc"></div>
+
+
+    <div id="footer">
+        <div class="fle">
+            <!-- end of contact us section -->
+            
+            <!--
+                commenting this because css is humbling me but i will add everything that you added
+             <div>
+                <h2>CONNECT WITH US </h2>
+                
+                <i>
+                    <i class="fas fa-map-marker-alt"> 200 KRAAI STREET PRETORIA </i><br>
+                    <i class="fas fa-phone">+27 814 567890</i> <br>
+                    <i class="fas fa-envelope"> moondward@media.com</i>
+                </p>
+            </div>
+            -->
+
+            <!--
+                <div>
+            <i class="fab fa-facebook"></i> 
+            <i class="fab fa-twitter"></i> 
+            <i class="fab fa-instagram"></i> 
+            <i class="fab fa-linkedin"></i>
+        </div>
+        -->
+
+        
+        
+            <!--
+                girl since we described everything in about us lets comment this let me know what you think hanty check
+            <p>
+                <a href="./about.html">Moondawg Media</a> is a creative agency that specializes in multimedia production. 
+                We create compelling stories that engage and inspire. Our work is driven by our commitment to the community and our passion for the arts. 
+                <br>
+            </p>
+            -->
+            <!--
+        <div>
+        <p>
+        Copyright © 2020 Moondawg Media. All rights reserved.   
+        </p>
+        <p>
+        <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a>
+        <a href="#">Accessibility</a> | <a href="#">Ad Choices</a> | <a href="#">Terms of Service</a>
+        <a href="#google-maps">Sitemap</a>
+        </p>
+        </div>
+        -->
+
+        <div>
+            <h2>CONNECT WITH US </h2>
+        
+                <i class="fas fa-map-map" style="line-height: 25px;letter-spacing:1px;">153 Smuts Drive Halfway Gardens Midrand 1686 </i>
+
+                <i class="fas fa-phone">+27 83 425 7007</i>    
+                        
+                <i class="fas fa-envelope" style="letter-spacing:1px"> admin@moondawgmedia.com</i>
+
+        </div>
+
+        <div >
+            <a href="" class="big">
+                <i class="fab fa-facebook">
+                </i> 
+            </a>
+    
+            <a href="" class="big">
+                <i class="fab fa-twitter"></i> 
+            </a>
+            <a href="" class="big">
+                <i class="fab fa-instagram"></i> 
+            </a>
+            <a href="https://www.linkedin.com/in/simon-nyarugwe-78325237/?originalSubdomain=za" class="big">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <div>
+            <p>
+                Copyright © 2020 Moondawg Media. All rights reserved.   
+                </p>
+            
+                <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a>
+                <a href="#">Accessibility</a> | <a href="#">Ad Choices</a> | <a href="#" >Terms of Service</a>
+                <a href="#google-maps">Sitemap</a>
+            
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function SubForm() {
+             $.ajax({
+                url: "https://api.apispreadsheets.com/data/zTveiw1ZKXGpUsFy/",
+                type: "post",
+                data: $("#myForm").serializeArray(),
+                success: function () {
+                     alert("Form Data Submitted :)");
+                },
+                error: function () {
+                    alert("There was an error :(");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
